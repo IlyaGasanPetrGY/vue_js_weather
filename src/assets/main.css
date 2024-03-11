@@ -10,3 +10,10 @@ body {
     display: flex;
     flex-direction: column;
 }
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.short_desc_content {
+    font-size: 1rem;
+}
