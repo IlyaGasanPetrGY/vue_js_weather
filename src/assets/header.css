@@ -1,0 +1,16 @@
+.wrapper_header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.nav_bar_width {
+    width: 50%;
+}
+.navbar-brand {
+    flex: 1;
+}
+.navbar_list {
+    flex: 3;
+    display: flex;
+    justify-content: space-around;
+}
