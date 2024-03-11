@@ -67,9 +67,7 @@ export default {
                     aria-describedby="inputGroup-sizing-default">
                     <button v-if="city != ''" @click="getWheather()" type="button"  data-toggle="modal" data-target="#exampleModalCenter" class="btn btn-primary btn-lg">Large button</button>
                     <button v-else disabled @click="getWheather()" type="button" class="btn btn-primary btn-lg">Large button</button>
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-                        Launch demo modal
-                      </button>
+                   
             </div>
             <p style="color:red"> {{ error }} </p>
             <div v-if="info != null">

@@ -7,8 +7,8 @@
 
 }
 .container_contant {
-    width: 80%;
-    height: 70vh;
+    width: 50%;
+    height: 50vh;
 
     background: rgb(238,174,202);
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
@@ -23,6 +23,7 @@
     justify-content: space-between;
     align-items: center;
     height: 100%;
+    width: 100%;
 }
 .image_content {
     flex: 2;
@@ -32,6 +33,7 @@
     display: flex;
     justify-content: start;
     align-items: center;
+    width: 100%;
 }
 .wrapper_image {
     height: 100%;
